@@ -30,7 +30,7 @@ export const config = {
   // HSK Chain ledger anchoring (optional).
   chainRpc: process.env.HSK_RPC_URL ?? "https://mainnet.hsk.xyz",
   chainId: num(process.env.HSK_CHAIN_ID, 177),
-  explorer: process.env.HSK_EXPLORER ?? "https://hashkey.blockscout.com",
+  explorer: process.env.HSK_EXPLORER ?? "https://hsk.blockscout.com",
   ledgerAddress: process.env.CONCORD_LEDGER_ADDRESS as `0x${string}` | undefined,
   operatorKey: process.env.OPERATOR_PRIVATE_KEY as `0x${string}` | undefined,
 

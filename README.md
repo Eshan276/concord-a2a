@@ -2,7 +2,7 @@
 
 **Track:** Agent Payments & A2A Settlement (HSP) · HSK Chain Horizon Hackathon, Mumbai
 
-**Live:** https://concord-a2a.vercel.app · land on the homepage, onboard a company or open the demo workspace (Bandra Brew House)
+**Live:** https://concord-a2a.vercel.app · **Contract (HSK mainnet):** [`0x020dc85e…cc1b`](https://hsk.blockscout.com/address/0x020dc85e7b38864e576c1801baffc4cb0d88cc1b) · land on the homepage, onboard a company or open the demo workspace (Bandra Brew House)
 
 Any company can join Concord and get its own **procurement agent** and **sales agent**. These agents trade with other companies' agents over **A2A**. They watch inventory, request quotes, negotiate, and pay each other through **HSP**, then record each settlement on **HSK Chain**. They try to make a profit, but **deterministic fair-dealing rules** stop any agent from exploiting a counterparty or causing it a loss.
 
@@ -65,7 +65,9 @@ Rules are checked twice. An honest company's own agent corrects its prices befor
 - a per-SKU fair reference price
 - violation reports and a `reputationBps` score
 
-Deployed on HSK Chain mainnet (177): `TBD`
+**Deployed on HashKey Chain mainnet (chain 177):** [`0x020dc85e7b38864e576c1801baffc4cb0d88cc1b`](https://hsk.blockscout.com/address/0x020dc85e7b38864e576c1801baffc4cb0d88cc1b) · deploy tx [`0x7e30e87b…7ff2`](https://hsk.blockscout.com/tx/0x7e30e87b420644cb6374cd9eaefd915d4ba1588bc20efa43063512ba17297ff2)
+
+The running engine registers every company and anchors each HSP settlement and rule violation there. Example settlement tx: [`0x4ea1f34a…3926`](https://hsk.blockscout.com/tx/0x4ea1f34a5bd56caf7a3a269bbf01c2bffa17f3577e5426d78b53b899fbf63926)
 
 ## Product
 - **Landing → self-serve onboarding** (`/#/start`): a company picks what it buys and sells, sets walk-away prices and an auto-approve limit; Concord deploys its agents, wallet and Agent Cards.
